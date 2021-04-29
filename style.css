@@ -1,0 +1,60 @@
+.header{
+    color:blue;
+}
+
+.primary-menu ul{
+    text-align: right;
+    margin-bottom: 0;
+}
+.primary-menu ul li{
+    display: inline-block;
+}
+.primary-menu ul li a{
+    display: block;
+    color: blue;
+    padding: 0 20px;
+    text-decoration: none;
+    line-height: 53px;
+
+    transition: .4s;
+    
+}
+.primary-menu ul li a:hover{
+    background-color: rgb(21, 235, 92);
+    border-radius: 10px;
+}
+.banner{
+    background-image: url(https://loraku.com/wp-content/uploads/2018/04/mark-zuckerberg-1200x640-e1522592157958.jpg);
+    padding: 250px 0;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.banner h1{
+    text-align: center;
+    color: #fff;
+}
+.about{
+    margin: 50px 30PX;
+}
+
+.about img{
+    height: 110px;
+    width: 110px;
+    float: left;
+    margin-right: 40px;
+    
+}
+.lorem{
+    font-size: 25px;
+}
+.about ul{
+    list-style: none;
+}
+.footer{
+    text-align: center;
+    background-color: blue;
+    padding: 20px;
+    color: #fff;
+    margin-top: -35px;
+}
+
